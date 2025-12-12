@@ -1,3 +1,6 @@
+![baniere](images/mon_image.png)
+
+
 # 💫 About Me:
 <br>🌟 Curious and creative, I enjoy transforming ideas into concrete projects.<br>💡 I am motivated by innovation.<br>🤝 I enjoy sharing knowledge.<br>🛠️ I focus on developing solutions that deliver real value.<br>🌱 I'm currently learning at Epitech
 
