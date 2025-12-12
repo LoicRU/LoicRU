@@ -1,4 +1,4 @@
-![baniere](images/mon_image.png)
+![baniere](mon_image.png)
 
 
 # 💫 About Me:
