@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 120" width="880" height="120" role="img" aria-label="open to cybersecurity internships">
+  <defs>
+    <linearGradient id="fline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#00ff9c" stop-opacity="0"/>
+      <stop offset="18%"  stop-color="#00ff9c" stop-opacity="0.55"/>
+      <stop offset="82%"  stop-color="#00ff9c" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#00ff9c" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="fglow" x="-50%" y="-200%" width="200%" height="500%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .m { font-family: 'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'DejaVu Sans Mono',monospace; }
+      .pulse   { animation: pulse 2.4s ease-in-out infinite; }
+      .pulse2  { animation: pulse 2.4s ease-in-out 1.2s infinite; }
+      .runner  { animation: run 4.6s cubic-bezier(.45,0,.55,1) infinite; }
+      .blink   { animation: blink 1.05s steps(1) infinite; }
+      .dashes  { animation: dash 2.2s linear infinite; }
+      .msg1, .msg2, .msg3 { opacity: 0; }
+      .msg1    { animation: cyc 12s ease-in-out 0s   infinite both; }
+      .msg2    { animation: cyc 12s ease-in-out 4s   infinite both; }
+      .msg3    { animation: cyc 12s ease-in-out 8s   infinite both; }
+      @keyframes pulse { 0%,100% { opacity:.25; r:4 } 50% { opacity:1; r:6 } }
+      @keyframes run   { 0% { transform: translateX(-40px) } 100% { transform: translateX(920px) } }
+      @keyframes blink { 0%,49% { opacity:1 } 50%,100% { opacity:0 } }
+      @keyframes dash  { to { stroke-dashoffset: -24 } }
+      @keyframes cyc   { 0% {opacity:0} 4% {opacity:1} 29% {opacity:1} 33% {opacity:0} 100% {opacity:0} }
+    </style>
+  </defs>
+
+  <line x1="0" y1="34" x2="880" y2="34" stroke="url(#fline)" stroke-width="1.4"/>
+  <line class="dashes" x1="0" y1="34" x2="880" y2="34" stroke="#00ff9c" stroke-width="1.4"
+        stroke-dasharray="2 22" opacity="0.75"/>
+  <circle class="runner" cx="0" cy="34" r="3.6" fill="#00ff9c" filter="url(#fglow)"/>
+
+  <circle class="pulse" cx="270" cy="72" r="4" fill="#00ff9c"/>
+  <text class="m" x="286" y="77" font-size="14" fill="#00ff9c" letter-spacing="1.5">STATUS</text>
+
+  <g>
+    <text class="m msg1" x="366" y="77" font-size="14" fill="#8b949e">open to cybersecurity internships</text>
+    <text class="m msg2" x="366" y="77" font-size="14" fill="#8b949e">currently shipping · mosalea.com</text>
+    <text class="m msg3" x="366" y="77" font-size="14" fill="#8b949e">always reading the source</text>
+  </g>
+  <rect class="blink" x="352" y="63" width="8" height="17" fill="#00ff9c" opacity="0.9"/>
+
+  <text class="m" x="440" y="108" font-size="12" fill="#3d4650" text-anchor="middle">
+    thanks for scrolling this far — now go break something.
+  </text>
+</svg>
