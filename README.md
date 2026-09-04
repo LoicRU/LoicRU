@@ -20,7 +20,7 @@
 <a href="https://mosalea.com">
   <img src="https://img.shields.io/badge/Mosalea-live-0D1117?style=for-the-badge&logo=firefoxbrowser&logoColor=00FF9C&labelColor=0D1117" alt="Mosalea">
 </a>
-<a href="mailto:jpppp852@gmail.com">
+<a href="mailto:loic.ruyssen@gmail.com">
   <img src="https://img.shields.io/badge/Contact-open-0D1117?style=for-the-badge&logo=maildotru&logoColor=00FF9C&labelColor=0D1117" alt="Contact">
 </a>
 <img src="https://img.shields.io/github/followers/LoicRU?style=for-the-badge&logo=github&logoColor=00FF9C&labelColor=0D1117&color=0D1117&label=followers" alt="Followers">
