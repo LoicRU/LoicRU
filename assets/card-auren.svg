@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="150" viewBox="0 0 560 150" role="img" aria-label="AUREN — Portfolio cybersécurité">
+  <rect width="560" height="150" rx="16" fill="#f3e6d3"/>
+  <rect x="0" y="0" width="8" height="150" rx="4" fill="#c2670a"/>
+  <text x="36" y="70" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="36" font-weight="700" fill="#3b2a14">AUREN</text>
+  <circle cx="42" cy="100" r="6" fill="#c2670a"/>
+  <text x="58" y="105" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#3b2a14" fill-opacity="0.8">Portfolio cybersécurité</text>
+  <g transform="translate(400 15)"><path d="M60 8 L102 24 V58 C102 86 82 104 60 112 C38 104 18 86 18 58 V24 Z" fill="#c2670a"/><circle cx="60" cy="54" r="11" fill="#f3e6d3"/><rect x="55.5" y="60" width="9" height="26" rx="3.5" fill="#f3e6d3"/></g>
+</svg>
