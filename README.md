@@ -37,13 +37,6 @@ Je travaille à la croisée de la **cybersécurité**, du **développement web**
 <img src="https://img.shields.io/badge/Extension-navigateur-0EA5E9?style=flat-square" alt="Extension navigateur">
 </td>
 </tr>
-<tr>
-<td colspan="2" valign="top">
-<a href="https://github.com/LoicRU/trading-bot"><img src="assets/card-tradingbot.svg" alt="Trading Bot" width="100%"></a>
-<p>Bot de paper-trading (portefeuille virtuel, zéro argent réel) qui valide une infrastructure complète de trading algorithmique : stratégie volontairement simple, backtesting protégé contre le biais de données, rapport HTML généré chaque nuit par GitHub Actions, 148 tests automatisés. <a href="https://github.com/LoicRU/trading-bot">code</a></p>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
-</td>
-</tr>
 </table>
 
 ## Stack
