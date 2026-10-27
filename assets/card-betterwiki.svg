@@ -1,24 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="560" height="150" viewBox="0 0 560 150" role="img" aria-label="Better Wiki — In development">
-  <defs>
-    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6F9994"/><stop offset="1" stop-color="#246B86"/></linearGradient>
-  </defs>
-  <rect width="560" height="150" rx="16" fill="#10151b"/>
-  <rect x="0" y="0" width="8" height="150" rx="4" fill="url(#accent)"/>
-  <text x="36" y="70" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="36" font-weight="700" fill="#e8ecef">Better Wiki</text>
-  <circle cx="42" cy="100" r="6" fill="#6f9994"/>
-  <text x="58" y="105" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#8b95a0">In development</text>
-  <g transform="translate(400 15)">
-    <rect x="4" y="4" width="96" height="84" rx="10" fill="#0c1116" stroke="#2a323c" stroke-width="2"/>
-    <rect x="4" y="4" width="96" height="18" rx="10" fill="#161d25"/>
-    <circle cx="14" cy="13" r="3" fill="#ff6b6b"/>
-    <circle cx="24" cy="13" r="3" fill="#ffd166"/>
-    <circle cx="34" cy="13" r="3" fill="#6fe3b4"/>
-    <g transform="translate(52 52)">
-      <circle cx="0" cy="0" r="26" fill="none" stroke="#6f9994" stroke-width="5"/>
-      <ellipse cx="0" cy="0" rx="11" ry="26" fill="none" stroke="#6f9994" stroke-width="4"/>
-      <line x1="-26" y1="0" x2="26" y2="0" stroke="#6f9994" stroke-width="4"/>
-      <line x1="-22" y1="-13" x2="22" y2="-13" stroke="#6f9994" stroke-width="3"/>
-      <line x1="-22" y1="13" x2="22" y2="13" stroke="#6f9994" stroke-width="3"/>
-    </g>
+  <rect width="560" height="150" rx="16" fill="#111113"/>
+  <text x="36" y="70" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="36" font-weight="700" fill="#F5F5F2">Better Wiki</text>
+  <circle cx="42" cy="100" r="6" fill="#7C5CFF"/>
+  <text x="58" y="105" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#9A9AA2">In development</text>
+  <g transform="translate(470 55)">
+    <path d="M0 -32 L32 0 L0 32 L-32 0 Z" fill="none" stroke="#7C5CFF" stroke-width="4" stroke-linejoin="round"/>
+    <line x1="-14" y1="-14" x2="14" y2="14" stroke="#7C5CFF" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="32" cy="0" r="2.5" fill="#6E6E78"/>
+    <line x1="32" y1="0" x2="48" y2="0" stroke="#2E2E36" stroke-width="1.4"/>
+    <circle cx="48" cy="0" r="2.5" fill="#6E6E78"/>
   </g>
 </svg>
