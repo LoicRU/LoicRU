@@ -1,9 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="150" viewBox="0 0 560 150" role="img" aria-label="AUREN — Assistant IA security-first">
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="150" viewBox="0 0 560 150" role="img" aria-label="AUREN — Security-first AI assistant">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6F9994"/><stop offset="1" stop-color="#246B86"/></linearGradient>
+  </defs>
   <rect width="560" height="150" rx="16" fill="#10151b"/>
-  <rect x="0" y="0" width="8" height="150" rx="4" fill="#6f9994"/>
+  <rect x="0" y="0" width="8" height="150" rx="4" fill="url(#accent)"/>
   <text x="36" y="70" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="36" font-weight="700" fill="#e8ecef">AUREN</text>
   <circle cx="42" cy="100" r="6" fill="#6f9994"/>
-  <text x="58" y="105" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#8b95a0">Assistant IA security-first</text>
+  <text x="58" y="105" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#8b95a0">AI assistant, security-first</text>
   <g transform="translate(400 15)">
     <path d="M8 10 h66 a10 10 0 0 1 10 10 v36 a10 10 0 0 1 -10 10 h-40 l-16 16 v-16 h-10 a10 10 0 0 1 -10 -10 v-36 a10 10 0 0 1 10 -10 z" fill="none" stroke="#5c6672" stroke-width="7" stroke-linejoin="round"/>
     <g transform="translate(46 44)">

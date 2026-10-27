@@ -1,9 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="150" viewBox="0 0 560 150" role="img" aria-label="Mosalea — En production">
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="150" viewBox="0 0 560 150" role="img" aria-label="Mosalea — In production">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6F9994"/><stop offset="1" stop-color="#246B86"/></linearGradient>
+  </defs>
   <rect width="560" height="150" rx="16" fill="#10151b"/>
-  <rect x="0" y="0" width="8" height="150" rx="4" fill="#6f9994"/>
+  <rect x="0" y="0" width="8" height="150" rx="4" fill="url(#accent)"/>
   <text x="36" y="70" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="36" font-weight="700" fill="#e8ecef">Mosalea</text>
   <circle cx="42" cy="100" r="6" fill="#6f9994"/>
-  <text x="58" y="105" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#8b95a0">En production</text>
+  <text x="58" y="105" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#8b95a0">In production</text>
   <g transform="translate(400 15)">
     <rect x="8" y="4" width="68" height="84" rx="8" fill="none" stroke="#5c6672" stroke-width="6"/>
     <circle cx="58" cy="24" r="9" fill="#8b95a0"/>
