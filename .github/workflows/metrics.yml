@@ -19,6 +19,8 @@ jobs:
           user: LoicRU
           template: classic
           base: ""
+          repositories_forks: yes
+          repositories_affiliations: OWNER, COLLABORATOR, ORGANIZATION_MEMBER
           plugin_languages: yes
           plugin_languages_limit: 6
           plugin_languages_analysis_timeout: 15
