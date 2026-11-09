@@ -65,6 +65,27 @@ Software Engineering student at **Epitech**, currently in my 2nd year. I work at
   <img alt="" src="assets/separator-dark.svg" width="100%" height="20">
 </picture>
 
+## Activity
+
+<table>
+<tr>
+<td width="55%" valign="top">
+<img src="assets/stats-calendar.svg" alt="Contribution calendar">
+</td>
+<td width="45%" valign="top">
+<img src="assets/stats-languages.svg" alt="Top languages">
+</td>
+</tr>
+</table>
+
+<sub>Auto-generated weekly via <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a>.</sub>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/separator-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/separator-light.svg">
+  <img alt="" src="assets/separator-dark.svg" width="100%" height="20">
+</picture>
+
 ## Elsewhere
 
 [LinkedIn](https://www.linkedin.com/in/lo%C3%AFc-ruyssen-2002a92b1) · [Mosalea](https://mosalea.com) · [AgentDrift](https://github.com/LoicRU/agentdrift)

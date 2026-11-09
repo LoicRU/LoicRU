@@ -1,0 +1,57 @@
+name: Metrics
+
+on:
+  schedule: [{cron: "0 0 * * 0"}] # once a week
+  workflow_dispatch:
+  push: {branches: ["main"]}
+
+jobs:
+  languages:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: assets/stats-languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: LoicRU
+          template: classic
+          base: ""
+          plugin_languages: yes
+          plugin_languages_limit: 6
+          plugin_languages_analysis_timeout: 15
+          extras_css: |
+            .field svg { fill: #7C5CFF; }
+            .field { color: #7C5CFF; }
+            h1, h2, h3 { color: #7C5CFF !important; }
+
+  calendar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: assets/stats-calendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: LoicRU
+          template: classic
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          extras_css: |
+            .field svg { fill: #7C5CFF; }
+            .field { color: #7C5CFF; }
+            h1, h2, h3 { color: #7C5CFF !important; }
+          extras_js: |
+            for (const {a, b} of [
+              {a:"#216e39", b:"#2E2135"},
+              {a:"#30a14e", b:"#4A3A80"},
+              {a:"#40c463", b:"#6B4FD6"},
+              {a:"#9be9a8", b:"#9A8CFF"},
+              {a:"#ebedf0", b:"#2E2E36"},
+            ])
+            document.querySelectorAll(`svg g [fill="${a}"]`).forEach(node => node.setAttribute("fill", b))
