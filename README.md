@@ -9,6 +9,7 @@
 Software Engineering student at **Epitech**, currently in my 2nd year. I work at the intersection of **cybersecurity**, **web development**, and **tooling for LLMs**, and I like turning ideas into things that actually ship.
 
 🔭 Currently: pushing **AgentDrift** toward its first public release.
+🎓 Open to internship opportunities.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/separator-dark.svg">
@@ -74,6 +75,11 @@ Software Engineering student at **Epitech**, currently in my 2nd year. I work at
 </td>
 <td width="45%" valign="top">
 <img src="assets/stats-languages.svg" alt="Top languages">
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+<img src="assets/stats-activity.svg" alt="Activity and community stats" width="100%">
 </td>
 </tr>
 </table>

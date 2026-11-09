@@ -29,6 +29,24 @@ jobs:
             .field { color: #7C5CFF; }
             h1, h2, h3 { color: #7C5CFF !important; }
 
+  community:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: assets/stats-activity.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: LoicRU
+          template: classic
+          base: "activity, community"
+          extras_css: |
+            .field svg { fill: #7C5CFF; }
+            .field { color: #7C5CFF; }
+            h1, h2, h3 { color: #7C5CFF !important; }
+
   calendar:
     runs-on: ubuntu-latest
     permissions:
